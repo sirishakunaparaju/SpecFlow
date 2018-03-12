@@ -10,11 +10,9 @@ namespace AmazonSpecflow.Utils
     {
 
       
-        //public static string txtEmail = "//*[@name='email']";
         public static string txtEmail = "email";
         public static string txtPassword = "password";
         public static string btnContinue ="//input[@id='continue']";
-        
         public static string btnSignIn = "//input[@id='signInSubmit']";
     }
 }

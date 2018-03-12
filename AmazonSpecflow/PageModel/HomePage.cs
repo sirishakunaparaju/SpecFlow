@@ -12,12 +12,7 @@ namespace AmazonSpecflow.PageModel
 {
     public class HomePage
     {
-        public HomePage()
-        {
-        
-           // PageFactory.InitElements(SharedWebDriver.driver, typeof(Support));
-        }
-
+       
         public void FindUserAmazonElement()
         {
             Support.wait_for_element_exists(HomeElements.lnkBtnUserAmazon);
