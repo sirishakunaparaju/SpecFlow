@@ -13,11 +13,6 @@ namespace AmazonSpecflow.PageModel
     class CreateAccount
     {
     
-        public CreateAccount()
-        {            
-            //PageFactory.InitElements(SharedWebDriver.driver, typeof(Support));
-        }
-
         public void EnterValidData()
         {
             SharedWebDriver.driver.FindElement(By.Name(CreateAccountElements.Name)).SendKeys(CreateAccountElements.strName);

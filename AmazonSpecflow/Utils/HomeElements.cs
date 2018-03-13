@@ -11,5 +11,5 @@ namespace AmazonSpecflow.Utils
         public static string lnkBtnUserAmazon= "//*[@id='nav-your-amazon-text']";
         public static string SignIn = "//*[@id='nav-link-yourAccount']";
         public static string Starthere = "//div/a[text()='Start here.']";
-           }
+     }
 }
